@@ -2,9 +2,9 @@ apply from: '../generated.gradle'
 
 dependencies {
     compile project(':generated:anko-commons')
-    embedded project(':static:platform')
+    embedded project(path: ':static:platform', configuration: 'default')
 }
 
-task androidReleaseSources(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseSources(type: Jar, dependsOn: 'assembleRelease') {
     from("src", "../../static/platform/src")
 }

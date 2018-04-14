@@ -10,6 +10,6 @@ dependencies {
     compile project(':generated:anko-appcompat-v7-coroutines')
 }
 
-task androidReleaseSources(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseSources(type: Jar, dependsOn: 'assembleRelease') {
     from "src"
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="download_android_sdk" default="download_android_sdk">
-
+    <taskdef resource="net/sf/antcontrib/antlib.xml"/>
     <property name="android.sdk.dir" value="dependencies/android-sdk"/>
     <property name="download.dir" value="dependencies/download"/>
 

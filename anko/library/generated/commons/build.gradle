@@ -1,9 +1,9 @@
 apply from: '../generated.gradle'
 
 dependencies {
-    embedded project(':static:commons')
+    embedded project(path: ':static:commons', configuration: 'default')
 }
 
-task androidReleaseSources(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseSources(type: Jar, dependsOn: 'assembleRelease') {
     from("src", "../../static/commons/src")
 }

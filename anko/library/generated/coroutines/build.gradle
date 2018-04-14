@@ -11,6 +11,6 @@ kotlin {
     }
 }
 
-task androidReleaseSources(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseSources(type: Jar, dependsOn: 'assembleRelease') {
     from("src", "../../static/common/src")
 }

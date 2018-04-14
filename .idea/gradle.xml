@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin/attrs" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin/idea-runner" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin/intentions" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin/plugin-classpath" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin/preview" />
+            <option value="$PROJECT_DIR$/anko/idea-plugin/xml-converter" />
+            <option value="$PROJECT_DIR$/anko/library/generated" />
+            <option value="$PROJECT_DIR$/anko/library/generated/anko" />
+            <option value="$PROJECT_DIR$/anko/library/generated/appcompat-v7" />
+            <option value="$PROJECT_DIR$/anko/library/generated/appcompat-v7-commons" />
+            <option value="$PROJECT_DIR$/anko/library/generated/appcompat-v7-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/appcompat-v7-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/cardview-v7" />
+            <option value="$PROJECT_DIR$/anko/library/generated/common" />
+            <option value="$PROJECT_DIR$/anko/library/generated/commons" />
+            <option value="$PROJECT_DIR$/anko/library/generated/constraint-layout" />
+            <option value="$PROJECT_DIR$/anko/library/generated/coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/design" />
+            <option value="$PROJECT_DIR$/anko/library/generated/design-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/design-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/gridlayout-v7" />
+            <option value="$PROJECT_DIR$/anko/library/generated/percent" />
+            <option value="$PROJECT_DIR$/anko/library/generated/recyclerview-v7" />
+            <option value="$PROJECT_DIR$/anko/library/generated/recyclerview-v7-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/recyclerview-v7-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk15" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk15-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk15-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk19" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk19-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk19-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk21" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk21-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk21-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk23" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk23-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk23-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk25" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk25-coroutines" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sdk25-listeners" />
+            <option value="$PROJECT_DIR$/anko/library/generated/sqlite" />
+            <option value="$PROJECT_DIR$/anko/library/generated/support-v4" />
+            <option value="$PROJECT_DIR$/anko/library/generated/support-v4-commons" />
+            <option value="$PROJECT_DIR$/anko/library/generator" />
+            <option value="$PROJECT_DIR$/anko/library/robolectricTests" />
+            <option value="$PROJECT_DIR$/anko/library/static" />
+            <option value="$PROJECT_DIR$/anko/library/static/appcompatV7" />
+            <option value="$PROJECT_DIR$/anko/library/static/commons" />
+            <option value="$PROJECT_DIR$/anko/library/static/constraint-layout" />
+            <option value="$PROJECT_DIR$/anko/library/static/design" />
+            <option value="$PROJECT_DIR$/anko/library/static/platform" />
+            <option value="$PROJECT_DIR$/anko/library/static/sqlite" />
+            <option value="$PROJECT_DIR$/anko/library/static/supportV4" />
+            <option value="$PROJECT_DIR$/anko/library/stubs" />
+            <option value="$PROJECT_DIR$/anko/library/testUtils" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

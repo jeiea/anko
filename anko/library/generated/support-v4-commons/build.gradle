@@ -1,11 +1,11 @@
 apply from: '../generated.gradle'
 
 dependencies {
-    provided "com.android.support:support-v4:$SUPPORT_ARTIFACT_VERSION"
-    compile project(':generated:anko-commons')
-    embedded(project(':static:supportV4'))
+    compileOnly "com.android.support:support-v4:$SUPPORT_ARTIFACT_VERSION"
+    implementation project(':generated:anko-commons')
+    embedded project(path: ':static:supportV4', configuration: 'default')
 }
 
-task androidReleaseSources(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseSources(type: Jar, dependsOn: 'assembleRelease') {
     from("src", "../../static/supportV4/src")
 }

@@ -25,5 +25,5 @@ gradle.projectsEvaluated {
 dependencies {
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     compile project(':static:commons')
-    provided project(':stubs')
+    compileOnly project(':stubs')
 }

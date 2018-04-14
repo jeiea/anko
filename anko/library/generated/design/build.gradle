@@ -1,11 +1,11 @@
 apply from: '../generated.gradle'
 
 dependencies {
-    provided "com.android.support:design:$SUPPORT_ARTIFACT_VERSION"
+    compileOnly "com.android.support:design:$SUPPORT_ARTIFACT_VERSION"
     compile project(':generated:anko-commons')
-    embedded project(':static:design')
+    embedded project(path: ':static:design', configuration: 'default')
 }
 
-task androidReleaseSources(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseSources(type: Jar, dependsOn: 'assembleRelease') {
     from "src"
 }

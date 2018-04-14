@@ -40,7 +40,7 @@ gradle.projectsEvaluated {
     tasks.generateRJava.enabled = false
 }
 
-task androidReleaseJar(type: Jar, dependsOn: assembleRelease) {
+task androidReleaseJar(type: Jar, dependsOn: 'assembleRelease') {
     from "$buildDir/intermediates/classes/release/"
 }
 
